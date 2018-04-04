@@ -1,0 +1,165 @@
+html
+{
+	font-family: Arial, Open Sans;
+	font-size: small;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+button
+{
+	font-family: Arial, Open Sans;
+	font-size: small;
+	border: 1px solid rgb(255,255,255);
+	padding: 10px;
+	color: gray;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+button:hover
+{
+	color:black;
+	border: 1px solid rgba(112,112,112,.4);
+	box-shadow: 1px 1px 1px 1px rgba(56,56,56,.2);
+	background-color: rgba(112,112,112,.1);
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	display: inline;
+	padding-left: 10px;
+}
+
+#inputSearch
+{
+	width: 579px;
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+    border: 1px solid rgba(229,229,229,1);
+    border-radius: 3px;
+    box-shadow: 0 5px 2px -2px rgba(125,125,125,.2);
+}
+
+#inputSearch:hover
+{
+	transition-duration: 0.4s;
+	box-shadow: 2px 2px 8px rgba(11,14,0,0.2);
+}
+
+#navBarDiv
+{
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 142px;
+	padding-right: 22px;
+}
+
+#content
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#inputSearchContener
+{
+	padding-top: 20px;
+}
+
+#buttonSearch
+{
+	padding-top: 20px;
+}
+
+#textLangage
+{
+	padding-top: 20px;
+}
+
+#buttonSignIn
+{
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	background-color: #4285f4;
+	padding: 6px 12px 6px 12px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	cursor: default;
+}
+
+#buttonAppli
+{
+	position: relative;
+	top: 3px;
+	width: 15px;
+	height: 17px;
+	opacity: .5;
+}
+
+#buttonAppli:hover
+{
+	opacity: 1;
+}
+
+#footer
+{
+	border-top: 1px solid #e4e4e4;
+	position: fixed;
+	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	line-height: 40px;
+   	background-color: #f2f2f2;
+   	color: rgba(0,0,0,.54);
+}	
+
+#footerBorder
+{
+	border-bottom: 1px solid #e4e4e4;
+}
+
+#footerContenuTop
+{
+	text-align: left;
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+#footerContenuBot
+{
+	/*padding-right: 27px;*/
+	margin-left: 30px;
+	float: left;
+}
+
+#footerContenuBotBis
+{
+	float: right;
+	margin-right: 7px;
+}
+
+.footList
+{
+	margin-right: 23px;
+}
+
+footer a
+{
+	color: #666;
+}
