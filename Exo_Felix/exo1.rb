@@ -1,0 +1,1 @@
+print "Bonjour monde!"; #=> print ou puts pour afficher élément dans la console
